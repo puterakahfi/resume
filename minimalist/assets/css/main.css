@@ -1,5 +1,6 @@
 body{
 	font-family:"Roboto";
+	background: #f4f4f4;
 }
 
 .container{
@@ -33,6 +34,7 @@ body{
 	margin : 0px 5px;
 }
 
+/*
 #component-profile .fa-facebook{
 	color: #3B5998;
 }
@@ -45,7 +47,7 @@ body{
 #component-profile .fa-pinterest{
 color :#BD081C;
 }
-
+*/
 #component-profile img{
 	border-radius:60px;
 	text-align:center;
@@ -53,10 +55,13 @@ color :#BD081C;
 #component-profile h2{
 	font-weight: 600;
 	margin-top: 30px;
-	font-size: 25pt;
+	font-size: 30pt;
 }
 
-#component-profile h5{
+#component-profile h4{
+	font-size: 12pt;
+	font-weight:600;
+	color: #d8d8d8;
 	text-transform:  uppercase;
 }
 
