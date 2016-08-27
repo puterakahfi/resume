@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "putera kahfi",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "vue-bulma-rating": "^1.0.0"
+  }
 }

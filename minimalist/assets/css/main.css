@@ -1,10 +1,13 @@
 body{
 	font-family:"Roboto";
+	background: #F5F5F5;
 }
 
 .container{
+	color: #c4c4c4;
 	padding: 10px;
 	margin:10px auto;
+	background: url(".../img/mono.jpg")  center no-repeat; 
 }
 .vertical-line{
 	border-right: 1px  solid #F9F7ED;
@@ -22,27 +25,46 @@ body{
 #component-profile:after{
 	margin-bottom: 50px;
 }
+#component-profile .fa{
+	color:#b2b2b2;
+}
 #component-profile img{
 	border-radius:60px;
+	text-align:center;
 }
 #component-profile h2{
 	font-weight: 600;
 	margin-top: 30px;
-	font-size: 30pt;
-	text-transform: uppercase;
+	font-size: 25pt;
 }
 
 #component-profile h5{
 	text-transform:  uppercase;
 }
 
+
+/** utils **/
+.color.black{
+	color:black;
+}
+
+.position.center{
+	text-align:center;
+}
+/** side content component **/
 .component-side-content{
 	margin: 20px auto;
 }
 
-.component-side-content h3{
+.component-side-content p{
+	font-size: 10pt;
+
+}
+.component-side-content h4{
 	text-transform: uppercase;
 	font-weight: 600;
+	font-size: 12pt;
+	text-align:center;
 }
 
 .component-side-content hr{ 
