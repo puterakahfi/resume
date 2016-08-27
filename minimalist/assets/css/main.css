@@ -1,32 +1,32 @@
 body{
-    font-family:"Roboto";
+	font-family:"Roboto";
 }
 
 .container{
-    padding: 10px;
-    margin:10px auto;
-    -webkit-box-shadow: 1px 6px 14px 0px rgba(194,194,194,1);
-    -moz-box-shadow: 1px 6px 14px 0px rgba(194,194,194,1);
-    box-shadow: 1px 6px 14px 0px rgba(194,194,194,1);
+	padding: 10px;
+	margin:10px auto;
+}
+.vertical-line{
+	border-right: 1px  solid #F9F7ED;
 }
 .component-side-content, #component-profile{
-    text-align: center;
+	text-align: center;
 }
 
 #component-profile{
 	margin-bottom:60px;
 }
 #component-profile h1, #component-profile h2, h3, #component-profile h6{
-    margin:0px;
+	margin:0px;
 }
 #component-profile:after{
 	margin-bottom: 50px;
 }
 #component-profile img{
-    border-radius:60px;
+	border-radius:60px;
 }
 #component-profile h2{
-    font-weight: 600;
+	font-weight: 600;
 	margin-top: 30px;
 	font-size: 30pt;
 	text-transform: uppercase;
