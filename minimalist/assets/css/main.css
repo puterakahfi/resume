@@ -18,6 +18,10 @@ body{
 #component-profile{
 	margin-bottom:60px;
 }
+
+#component-profile hr{
+	width: 60%;
+}
 #component-profile h1, #component-profile h2, h3, #component-profile h6{
 	margin:0px;
 }
@@ -26,6 +30,7 @@ body{
 }
 #component-profile .fa{
 	color:#b2b2b2;
+	margin : 0px 5px;
 }
 #component-profile img{
 	border-radius:60px;
@@ -65,7 +70,7 @@ body{
 	font-size: 10pt;
 	padding: 5px;
 	width: 100px;	
-	margin: 5px auto;
+	margin: 15px auto;
 	border-radius: 35px;
 	color: #bfbfbf;
 	border: 1px solid  #bfbfbf;
