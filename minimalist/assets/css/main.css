@@ -1,6 +1,5 @@
 body{
 	font-family:"Roboto";
-	background: #F5F5F5;
 }
 
 .container{
@@ -53,7 +52,7 @@ body{
 }
 /** side content component **/
 .component-side-content{
-	margin: 20px auto;
+	margin: 25px auto;
 }
 
 .component-side-content p{
@@ -63,12 +62,18 @@ body{
 .component-side-content h4{
 	text-transform: uppercase;
 	font-weight: 600;
-	font-size: 12pt;
-	text-align:center;
+	font-size: 10pt;
+	padding: 5px;
+	width: 100px;	
+	margin: 5px auto;
+	border-radius: 35px;
+	color: #bfbfbf;
+	border: 1px solid  #bfbfbf;
 }
 
 .component-side-content hr{ 
 	width :50%;
+	display:none;
 }
 
 
