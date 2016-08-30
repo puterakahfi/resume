@@ -81,7 +81,7 @@ color :#BD081C;
 
 .component-side-content p{
 	font-size: 10pt;
-
+	text-align: left;
 }
 .component-side-content h4{
 	text-transform: uppercase;
@@ -95,11 +95,12 @@ color :#BD081C;
 	border: 1px solid  #bfbfbf;
 }
 
-.component-side-content hr{ 
-	width :50%;
-	display:none;
+.component-side-content #contact-detail{
+	text-align:left;
 }
-
+#contact-detail hr{
+	border-bottom: 1px solid #eee
+}
 .main-content{
 	margin-left: 20px;
 	padding-left: 10px;
