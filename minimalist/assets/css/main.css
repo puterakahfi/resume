@@ -10,7 +10,7 @@ body{
 	background: url(".../img/mono.jpg")  center no-repeat; 
 }
 .vertical-line{
-	border-right: 1px  solid #F9F7ED;
+	border-right: 1px  solid #dbdbdb;
 }
 .component-side-content, #component-profile{
 	text-align: center;
@@ -100,4 +100,8 @@ color :#BD081C;
 	display:none;
 }
 
-
+.main-content{
+	margin-left: 20px;
+	padding-left: 10px;
+	background: white;
+}
