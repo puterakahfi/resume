@@ -1,13 +1,10 @@
 body{
-	font-family:"Roboto";
-	background: #f4f4f4;
+	font-family:"Roboto";	
 }
 
 .container{
-	color: #c4c4c4;
 	padding: 10px;
 	margin:10px auto;
-	background: url(".../img/mono.jpg")  center no-repeat; 
 }
 .vertical-line{
 	border-right: 1px  solid #dbdbdb;
@@ -34,23 +31,26 @@ body{
 	margin : 0px 5px;
 }
 
-/*
-#component-profile .fa-facebook{
+#component-profile .fa:hover{
+	cursor: pointer;
+}
+#component-profile .fa-facebook:hover{
 	color: #3B5998;
 }
-#component-profile .fa-linkedin{
+#component-profile .fa-linkedin:hover{
 	color:#1D87BE;
 }
-#component-profile .fa-github{
+#component-profile .fa-github:hover{
 	color:#333333;
 }
-#component-profile .fa-pinterest{
+#component-profile .fa-pinterest:hover{
 color :#BD081C;
 }
-*/
+
 #component-profile img{
-	border-radius:60px;
+	border-radius:100%;
 	text-align:center;
+	width:150px;
 }
 #component-profile h2{
 	font-weight: 600;
@@ -74,6 +74,11 @@ color :#BD081C;
 .position.center{
 	text-align:center;
 }
+
+.icon-size.medium{
+	font-size:2.5em;
+}
+
 /** side content component **/
 .component-side-content{
 	margin: 25px auto;
@@ -89,9 +94,9 @@ color :#BD081C;
 	font-size: 10pt;
 	padding: 5px;
 	width: 100px;	
-	margin: 15px auto;
+	margin: 15px auto;	
 	border-radius: 35px;
-	color: #bfbfbf;
+	
 	border: 1px solid  #bfbfbf;
 }
 
@@ -99,8 +104,9 @@ color :#BD081C;
 	text-align:left;
 }
 #contact-detail hr{
-	border-bottom: 1px solid #eee
+	margin:8px;
 }
+
 .main-content{
 	margin-left: 20px;
 	padding-left: 10px;
