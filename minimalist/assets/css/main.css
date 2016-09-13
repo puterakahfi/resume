@@ -1,10 +1,15 @@
 body{
 	font-family:"Roboto";	
+	background-color: #F9F9F9
 }
 
 .container{
-	padding: 10px;
-	margin:10px auto;
+	background-color:#fff;
+	display: block;
+	color:#777;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
 }
 .vertical-line{
 	border-right: 1px  solid #f4f4f4;
@@ -14,6 +19,7 @@ body{
 }
 
 #component-profile{
+	padding: 10px 0px;
 	margin-bottom:60px;
 }
 
@@ -44,7 +50,7 @@ body{
 	color:#333333;
 }
 #component-profile .fa-pinterest:hover{
-color :#BD081C;
+	color :#BD081C;
 }
 
 #component-profile img{
@@ -95,7 +101,6 @@ color :#BD081C;
 	padding: 5px;
 	margin: 10px auto;	
 	border-bottom : solid 1px #cecece;
-	border-bottom-width: 2px;
 	width: 50%;
 }
 
@@ -107,7 +112,10 @@ color :#BD081C;
 }
 
 .main-content{
-	margin-left: 20px;
-	padding-left: 10px;
-	background: white;
+}
+
+
+
+.block-content h2{
+	font-weight:bold;
 }
