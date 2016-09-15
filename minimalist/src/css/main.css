@@ -12,6 +12,7 @@ body{
 }
 .vertical-line{
 	border-right: 1px  solid #f4f4f4;
+	background-color: #F9F9F9;
 }
 .component-side-content, #component-profile{
 	text-align: center;
@@ -19,7 +20,6 @@ body{
 
 #component-profile{
 	padding: 10px 0px;
-	margin-bottom:60px;
 }
 
 #component-profile hr{
