@@ -1,3 +1,4 @@
 /node_modules/**
 /**/node_modules/**
 /minimalist/node_modules/
+/minimalist/dist/
