@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
+var cleanCSS = require('gulp-clean-css');
 var reload = browserSync.reload;
-
 gulp.task('default', ['browser-sync', 'watch']);
 
 
@@ -26,7 +26,9 @@ gulp.task('copy-fonts', function(){
 
 // copy css files
 gulp.task('copy-css',function(){
-    return gulp.src('src/css/**/*.css').pipe(gulp.dest('dist/css'))
+    return gulp.src('src/css/**/*.css')
+    .pipe(cleanCSS({compatibility: 'ie8'}))
+    .pipe(gulp.dest('dist/css'))
     .pipe(browserSync.stream());
 });
 
