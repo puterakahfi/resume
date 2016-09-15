@@ -7,6 +7,7 @@ gulp.task('default', ['browser-sync', 'watch']);
 
 gulp.task('watch',function(done){
     gulp.watch(['src/**/*.css'], ['copy-css']);
+    gulp.watch("./*.html").on('change', browserSync.reload);
 });
 
 // static server
