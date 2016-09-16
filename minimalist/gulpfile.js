@@ -10,6 +10,8 @@ gulp.task('watch',function(done){
     gulp.watch("./*.html").on('change', browserSync.reload);
 });
 
+gulp.task('build',['copy-css','copy-js','copy-fonts','copy-third']);
+
 // static server
 gulp.task('browser-sync', function() {
     browserSync.init({
