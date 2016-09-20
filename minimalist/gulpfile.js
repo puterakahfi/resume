@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
 var cleanCSS = require('gulp-clean-css');
 var reload = browserSync.reload;
-
+var uglify = require("gulp-uglify");
 
 gulp.task('default', ['build','browser-sync', 'watch']);
 
