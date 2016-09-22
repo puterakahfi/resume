@@ -11,6 +11,7 @@ gulp.task('default', ['build','browser-sync', 'watch']);
 
 gulp.task('watch',function(done){
     gulp.watch(['src/**/*.css'], ['copy-css']);
+    gulp.watch(['src/**/*.js'],['copy-js']);
     gulp.watch("./*.html").on('change', browserSync.reload);
 });
 
@@ -52,7 +53,9 @@ gulp.task('copy-css',function(){
 
 // copy js files
 gulp.task('copy-js',function(){
-    return gulp.src('src/js/**/*.js').pipe(gulp.dest('dist/js'));
+    return gulp.src('src/js/**/*.js')
+        .pipe(gulp.dest('dist/js'))
+        .pipe(browserSync.stream());
 });
 
 //copy third party package
