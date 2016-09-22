@@ -23,10 +23,12 @@
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/vue/2.0.0-rc.1/vue.min.js" type="text/javascript" charset="utf-8"></script>
 	<body>
 
-		<div class="container">
+		<div class="container" id="app">
 
 			<div class="row">
-				<div class="col-md-3 vertical-line"><div id="component-profile">
+				<div class="col-md-3 vertical-line">
+					<script type="text/x-template" id="profile">
+					<div id="component-profile">
 						<img src="src/img/profile.jpg" alt="profile"/>
 						<h2 class="color">Putera Kahfi</h2>
 						<h4>Web developer // web designer </h4> 
@@ -36,6 +38,9 @@
 						<span class="fa fa-2x fa-github"></span>
 						<span class="fa fa-2x fa-pinterest"></span>
 					</div>
+				</script>
+
+				<profile></profile>
 					<div class="component-side-content">
 						<h4 class="color"><i class="ion-ios-telephone"></i> Contact</h4>
 						<div id="contact-detail">
@@ -117,32 +122,31 @@
 							<h3><i class="ion-university"></i> Education </h3>
 							My name is putera kahfi, i'm a web developer	
 						</div>
+					</div>
+					<div class="col-md-6">
 						<div class="block-content">
 							<h3><i class="ion-erlenmeyer-flask"></i> Work Experiences </h3>
 							My name is putera kahfi, i'm a web developer	
 						</div>
-					</div>
-					<div class="col-md-6">
 						<div class="block-content">
 							<h3><i class="ion-university"></i> Hobbies and interests </h3>
 							My name is putera kahfi, i'm a web developer	
 						</div>
-				
-					
+
+
 					</div> 
 				</div>
-			</div>
-			<div class="row">
-				<div class="column column-80"></div>
 			</div>
 		</div>
 
 
 	</div> 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/vue.resource/1.0.2/vue-resource.min.js"></script>
 	<script src="dist/js/bootstrap.min.js"></script>
 	<script src="dist/packages/jquery-bar-rating/jquery.barrating.min.js"></script>
-    <script src="dist/js/app.js" type="text/javascript" charset="utf-8"></script>
+	<script src="dist/js/app.js" type="text/javascript" charset="utf-8"></script>
+	<script src="dist/js/app.jquery.js" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript">
 		$(function() {
 			$('.rate').barrating({
@@ -151,9 +155,5 @@
 			});
 		});
 	</script>
-
-
-
 </body>
-
 </html>
