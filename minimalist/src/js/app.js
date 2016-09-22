@@ -10,7 +10,20 @@ console.log(profile);
 Vue.component('profile',{
     template: '#profile',
     data : function(){
-        return profile
+        return {
+            profile:[]
+        }},
+    ready: function(){
+        this.fetchProfile();
+    },
+    methods: {
+        fetchProfile: function(){
+            var profile= [];
+            this.$http.get('resume.json')
+                .success(function(profile){
+                    this.$set('profile', profile);
+                });
+        }
     }
 });
 
