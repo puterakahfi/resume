@@ -9,7 +9,6 @@ Vue.component('profile',{
     },
     methods: {
         fetchProfile: function(){
-        alert("call");
             var profile= [];
             var profile = Vue.http.get('resume.json')
             .then((response) =>{ 
