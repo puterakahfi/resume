@@ -2,7 +2,6 @@ var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
 var cleanCSS = require('gulp-clean-css');
 var reload = browserSync.reload;
-var resume = require("gulp-resume");
 var rename = require("gulp-rename");
 
 
@@ -16,18 +15,6 @@ gulp.task('watch',function(done){
 });
 
 gulp.task('build',['copy-css','copy-js','copy-fonts','copy-third']);
-
-gulp.task('resume', function() {
-      return gulp.src('resume.json')
-        .pipe(resume({
-                  format: 'html',
-                  theme: 'elegant'
-        }))
-        .pipe(rename('resume.html'))
-        .pipe(gulp.dest('.'));
-
-});
-
 
 // static server
 gulp.task('browser-sync', function() {

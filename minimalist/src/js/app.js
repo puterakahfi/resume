@@ -2,14 +2,14 @@ Vue.component('profile',{
     template: '#profile',
     data : function(){
         return {
-            profile:[]
+            profile: fetchProfile() 
         }},
     ready: function(){
         this.fetchProfile();
     },
     methods: {
         fetchProfile: function(){
-        alert("call");
+            alert("call");
             var profile= [];
             var profile = Vue.http.get('resume.json')
             .then((response) =>{ 
