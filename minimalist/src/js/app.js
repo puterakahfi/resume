@@ -2,7 +2,7 @@ Vue.component('profile',{
     template: '#profile',
     data : function(){
         return {
-            profile: [] 
+            profile: []
         }},
     mounted: function(){
         this.fetchProfile();
@@ -11,8 +11,7 @@ Vue.component('profile',{
         fetchProfile: function(){
              Vue.http.get('resume.json')
             .then((response) =>{
-                console.log(response.body);
-                this.profile = response.body.basics;
+                this.profile = response.body;
             })
                 .catch( function(error) {
                     console.error(error);
