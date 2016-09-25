@@ -27,7 +27,7 @@
 
 			<div class="row">
 				<div class="col-md-3 vertical-line">
-					<script type="text/x-template" id="profile">
+					<script type="text/x-template" id="comp-profile">
 					<div id="component-profile">
 						<img src="src/img/profile.jpg" alt="profile"/>
 						<h2 class="color">Putera Kahfi</h2>
@@ -40,6 +40,7 @@
 					</div>
 				</script>
 				<profile></profile>
+				<script type="text/x-template" id="comp-contacts">
 					<div class="component-side-content">
 						<h4 class="color"><i class="ion-ios-telephone"></i> Contact</h4>
 						<div id="contact-detail">
@@ -49,7 +50,11 @@
 
 						</div> 
 					</div>
-					<div class="component-side-content">
+				</script>
+				<contacts></contacts>
+
+				<script type="text/x-template" id="comp-awards">
+				<div class="component-side-content">
 						<h4 class="color "><i class="ion-ribbon-a"></i> Awards</h4>
 						<div id="contact-detail">
 							<p><b>2016 - Github</b></i><br/>Best Web developer</p>
@@ -58,7 +63,8 @@
 
 					</div>
 				</div>
-
+				</script>
+				<awards></awards>
 				<div class="component-side-content">
 					<h4 class="color "><i class="ion-stats-bars"></i> Skills</h4>
 					<div id="contact-detail">
@@ -144,7 +150,7 @@
 	<script src="https://cdn.jsdelivr.net/vue.resource/1.0.2/vue-resource.min.js"></script>
 	<script src="dist/js/bootstrap.min.js"></script>
 	<script src="dist/packages/jquery-bar-rating/jquery.barrating.min.js"></script>
-	<script src="dist/js/app.js" type="text/javascript" charset="utf-8"></script>
+	<script src="dist/js/app.vue.js" type="text/javascript" charset="utf-8"></script>
 	<script src="dist/js/app.jquery.js" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript">
 		$(function() {

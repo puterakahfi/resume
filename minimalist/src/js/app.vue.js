@@ -1,5 +1,10 @@
+'use strict';
+
+/**
+* profile component
+**/
 Vue.component('profile',{
-    template: '#profile',
+    template: '#comp-profile',
     data : function(){
         return {
             profile: []
@@ -20,6 +25,25 @@ Vue.component('profile',{
     }
 });
 
+Vue.component('contacts',{
+    template: '#comp-contacts',
+    data: function(){
+        return {
+            contacts : []
+        } 
+    }
+});
+
+Vue.component('awards',{
+    template: '#comp-awards',
+    data: function(){
+        return {
+            awards : []
+        }
+    }
+});
+
+// Vue Instance
 new Vue({
     el: '#app',
 })
