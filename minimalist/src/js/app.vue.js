@@ -43,6 +43,14 @@ Vue.component('awards',{
     }
 });
 
+Vue.component('skills',{
+    template:'#comp-skills',
+    data: function(){
+        return {
+            skills: []
+        }
+    }
+});
 // Vue Instance
 new Vue({
     el: '#app',
