@@ -14,15 +14,8 @@ Vue.component('profile',{
     },
     methods: {
         fetchProfile: function(){
-             Vue.http.get('resume.json')
-            .then((response) =>{
-                this.profile = response.body;
-            })
-                .catch( function(error) {
-                    console.error(error);
-                });
-        }
-    }
+            console.log(this.$data);
+        }}
 });
 
 Vue.component('contacts',{
@@ -46,5 +39,21 @@ Vue.component('awards',{
 // Vue Instance
 new Vue({
     el: '#app',
+    data:{
+        resume : []
+    },
+    ready: function(){
+        return fetchResume();
+    }
+    methods:{
+        fetchResume :function(){
+            this.$http.get('resume.json').success(function(resumeData) {
+                this.$data.resume = resumeData; // You don't need to use $set here
+                console.log(this.$data);
+            }).error(function(error) {
+                console.log(error);
+            });
+        }
+    }
 })
 
