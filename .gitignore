@@ -1,4 +1,7 @@
 /node_modules/**
 /**/node_modules/**
-/minimalist/node_modules/
-/minimalist/dist/
+/minimalist/html-native/node_modules/
+/minimalist/html-native/dist/
+/minimalist/vue-version/node_modules/
+/minimalist/vue-version/dist/
+
