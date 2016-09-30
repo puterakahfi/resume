@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>minimalist resume</title>
+		<!-- Google Fonts -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+
+		<!-- CSS Reset -->
+		<link rel="stylesheet" href="dist/css/normalize.min.css">
+		<!-- ionic icons -->
+		<link rel="stylesheet" href="dist/css/ionicons.min.css" type="text/css" media="screen" title="ionic" charset="utf-8">
+		<link href="src/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="dist/packages/jquery-bar-rating/themes/fontawesome-stars.css">
+
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="dist/css/bootstrap.min.css">
+
+
+		<link rel="stylesheet" href="dist/css/main.css"> 
+	</head>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/vue/2.0.0-rc.1/vue.min.js" type="text/javascript" charset="utf-8"></script>
+	<body>
+
+		<div class="container" id="app">
+
+			<div class="row">
+				<div class="col-md-3 vertical-line">
+					<script type="text/x-template" id="comp-profile">
+					<div id="component-profile">
+						<img src="src/img/profile.jpg" alt="profile"/>
+						<h2 class="color">Putera Kahfi</h2>
+<div v-for="(key,val) in profile">   </div>
+						<h4> WEB DEVELOPER</h4>
+						<span class="fa fa-2x fa-facebook"></span>
+						<span class="fa fa-2x fa-linkedin"></span>
+						<span class="fa fa-2x fa-github"></span>
+						<span class="fa fa-2x fa-pinterest"></span>
+					</div>
+				</script>
+				<profile></profile>
+				<script type="text/x-template" id="comp-contacts">
+					<div class="component-side-content">
+						<h4 class="color"><i class="ion-ios-telephone"></i> Contact</h4>
+						<div id="contact-detail">
+							<p><b><i class="ion-ios-location"></i> Address</b><br/>Jl.cendrawasih no 234, RT 04 RW 01, Yogyakarta</p>
+							<p><b><i class="ion-iphone"></i> Phone</b><br/> 0545 4545 455 <br /></p>
+							<p><b><i class="ion-email"></i> Email</b><br/> puterakahfi@cjlabs.com </p>		
+
+						</div> 
+					</div>
+				</script>
+				<contacts></contacts>
+
+				<script type="text/x-template" id="comp-awards">
+				<div class="component-side-content">
+						<h4 class="color "><i class="ion-ribbon-a"></i> Awards</h4>
+						<div id="contact-detail">
+							<p><b>2016 - Github</b></i><br/>Best Web developer</p>
+						<p><b>2016 - Topcoder</b><br/> Best python programmer hackaton 2016 <br /></p>
+						<p><b>2016 - 99Designs</b><br/> Top 10 designer of the year </p>		
+
+					</div>
+				</div>
+				</script>
+				<awards></awards>
+				<div class="component-side-content">
+					<h4 class="color "><i class="ion-stats-bars"></i> Skills</h4>
+					<div id="contact-detail">
+						<p><b>PHP</b></i><br/></p>
+					<select class="rate">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6" selected="selected">6</option>
+						<option value="7">5</option>
+					</select>  
+					<p><b>HTML</b></i><br/></p>
+				<select class="rate">
+					<option value="1">1</option>
+					<option value="5">5</option>
+					<option value="5">5</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4" selected="selected">4</option>
+					<option value="5">5</option>
+				</select> 
+				<p><b>CSS</b></i><br/></p>
+			<select class="rate">
+				<option value="1">1</option>
+				<option value="5">5</option>
+				<option value="5">5</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4" selected="selected">4</option>
+				<option value="5">5</option>
+			</select>
+			<p><b>JAVASCRIPT</b></i><br/></p>
+		<select class="rate">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="5">5</option>
+			<option value="5">5</option>
+			<option value="4" selected="selected">4</option>
+			<option value="5">5</option>
+		</select> 
+	</div>
+</div>
+<div claas="vertical-line"></div>
+				</div>
+				<div  class="col-md-9 main-content">
+
+					<div class="col-md-6">
+						<div class="block-content">
+							<h3><i class="ion-person"></i>  About me </h3>
+							My name is putera kahfi, i'm a web developer	
+						</div>
+						<div class="block-content">
+							<h3><i class="ion-ios-bookmarks"></i> Degrees</h3>
+							My name is putera kahfi, i'm a web developer	
+						</div>
+						<div class="block-content">
+							<h3><i class="ion-university"></i> Education </h3>
+							My name is putera kahfi, i'm a web developer	
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="block-content">
+							<h3><i class="ion-erlenmeyer-flask"></i> Work Experiences </h3>
+							My name is putera kahfi, i'm a web developer	
+						</div>
+						<div class="block-content">
+							<h3><i class="ion-university"></i> Hobbies and interests </h3>
+							My name is putera kahfi, i'm a web developer	
+						</div>
+
+
+					</div> 
+				</div>
+			</div>
+		</div>
+
+
+	</div> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/vue.resource/1.0.2/vue-resource.min.js"></script>
+	<script src="dist/js/bootstrap.min.js"></script>
+	<script src="dist/packages/jquery-bar-rating/jquery.barrating.min.js"></script>
+	<script src="dist/js/app.vue.js" type="text/javascript" charset="utf-8"></script>
+	<script src="dist/js/app.jquery.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

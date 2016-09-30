@@ -1,0 +1,100 @@
+{
+  "basics": {
+    "name": "putera kahfi",
+    "label": "web developer coy",
+    "picture": "",
+    "email": "puterakahfi@gmail.com",
+    "phone": "+62853554566",
+    "website": "puterakahfi.github.io",
+    "summary": "web developer ",
+    "location": {
+      "address": "jl. duren sawit gang nangka kecamatan jeruk rt/rw 03/23",
+      "postalCode": "124556",
+      "city": "yogyakarta",
+      "countryCode": "+62",
+      "region": "ddd"
+    },
+    "profiles": [
+      {
+        "network": "facebook",
+        "username": "codejunior",
+        "url": "facebook.com/codejunior"
+      },
+      {
+        "network": "github",
+        "username": "puterakahfi",
+        "url": "github.com/puterakahfi"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "PT.Gamatechno Indonesia",
+      "position": "Web developer",
+      "website": "www.gamatechno.com",
+      "startDate": "2010-10-10",
+      "endDate": "2012-11",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "PT.Visi Multimedia Aditama",
+      "position": "Web Developer",
+      "website": "vma.com",
+      "startDate": "2012-10",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "STMIK AMIKOM ",
+      "area": "Yogyakarta",
+      "studyType": "Manajemen Informatika",
+      "startDate": "2004",
+      "endDate": "2008",
+      "gpa": "3.48",
+      "courses": []
+    },
+    {
+      "institution": "STMIK AMIKOM ",
+      "area": "Yogyakarta",
+      "studyType": "Sistem Informasi",
+      "startDate": "2018",
+      "endDate": "2010",
+      "gpa": "3.49",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Lulusan terbaik CDP",
+      "date": "2010",
+      "awarder": "PT.Gamatechno ",
+      "summary": "Program web developer training"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "html",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "php",
+      "level": "intermediate",
+      "keywords": []
+    }
+  ],
+  "languages": [],
+  "interests": [
+    {
+      "name": "web development",
+      "keywords": []
+    }
+  ],
+  "references": []
+}
